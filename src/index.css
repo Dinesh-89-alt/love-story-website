@@ -1,0 +1,18 @@
+/* Put Google Fonts first */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600;700&display=swap');
+
+/* Then Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom CSS */
+:root {
+  --bg-color: #fff0f6;
+  --accent-color: #ff4d6d;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+}
